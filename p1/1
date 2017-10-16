@@ -1,0 +1,1 @@
+mkdir -p calendar/{August,September,November}/Week\ {1..4}

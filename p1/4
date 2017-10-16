@@ -1,0 +1,1 @@
+find ./calendar/*/W*/ -exec ln ./calendar/tasks {} \; &> /dev/null

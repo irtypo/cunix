@@ -1,0 +1,3 @@
+find /etc -maxdepth 1 -name "[a-z]*" -type f -exec cat {} \; 2> error.txt | sort | uniq -u | wc -l
+
+# ls -l /etc | egrep “^-“ | cat | sort | uniq -u| wc -l
